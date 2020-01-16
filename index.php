@@ -6,13 +6,20 @@
 <html>
    <head>
       <title>MY KITCHEN </title>
+	  <meta charset="UTF-8">
+	  <meta name="description" content="MY KITCHEN is a food order and delivery service 
+    with the mission to bring affordable and healthy meals to as many people 
+    as possible.">
+    <link rel="stylesheet" type="text/css" href="style1.css">
 	  <link rel="stylesheet" href="style.css">
+	   <link rel="stylesheet" type="text/css" href="style3.css">
+	
 	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
+	   
    </head>
    <body>
    <!---- NavigationBar (<img src="imgs/food1.png">) ---->
@@ -34,7 +41,7 @@
         <a class="nav-link" href="#services">Services</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="#promo" >Our Team</a>
+        <a class="nav-link " href="#meals" >Gallery</a>
       </li>
 	  <li class="nav-item">
         <a class="nav-link " href="#menu" >Food Menu</a>
@@ -143,33 +150,39 @@
                   <div class="icon">
                      <i class="fas fa-flushed"></i>
                   </div>
-				  <h3>Burger</h3>
-				  <p> My Kitchen is a well-known restaurant in Adama serving with a variety of crispy burgers, 
-			sandwiches, and juice products. </p>
+				  <h3>Up to 365 days/year</h3>
+				  <p> Never cook again! We really mean that. Our subscription 
+                    plans include up to 365 days/year coverage. You can also 
+                    choose to order more flexibly if that's your style. </p>
                </div>
 			   <div class="col-md-3 text-center">
                   <div class="icon">
                      <i class="fas fa-flushed"></i>
                   </div>
-				  <h3>Pizza</h3>
-				  <p> My Kitchen is a well-known restaurant in Adama serving with a variety of crispy burgers, 
-			sandwiches, and juice products. </p>
+				  <h3>Ready in few minutes</h3>
+				  <p> You're only twenty minutes away from your delicious and 
+                    super healthy meals delivered right to your home. 
+                    We work with the best chefs in each town to ensure that 
+                    you're 100% happy. </p>
                </div>
 			   <div class="col-md-3 text-center">
                   <div class="icon">
                      <i class="fas fa-flushed"></i>
                   </div>
-				  <h3>Sandwich</h3>
-				  <p> My Kitchen is a well-known restaurant in Adama serving with a variety of crispy burgers, 
-			sandwiches, and juice products. </p>
+				  <h3>100% organic</h3>
+				  <p> All our vegetables are fresh, organic and local. Animals 
+                    are raised without added hormones or antibiotics. 
+                    Good for your health, the environment, and it also 
+                    tastes better! </p>
                </div>
 			   <div class="col-md-3 text-center">
                   <div class="icon">
                      <i class="fas fa-flushed"></i>
                   </div>
-				  <h3>Juice</h3>
-				  <p> My Kitchen is a well-known restaurant in Adama serving with a variety of crispy burgers, 
-			sandwiches, and juice products. </p>
+				  <h3>Order anything</h3>
+				  <p>We don't limit your creativity, which means you can order 
+                    whatever you feel like. You can also choose from our menu 
+                    containing many delicious meals. It's up to you! </p>
                </div>
    
             </div>
@@ -184,8 +197,11 @@
  <!--------------Promo--------------->
  <section id="promo">
  <div class="container">
- <p> GET GOOD BURGERS AND PIZZA</p> 
- <a href="log/login.php" class="btn btn-primary">Order Now</a>
+ <h2> Hello, we’re MY KITCHEN, your new premium food delivery service. 
+                We know you’re always busy. No time for cooking. 
+                So let us take care of that, we’re really good at it, 
+                we promise!</h2> 
+ <a href="login&R/login.php" class="btn btn-primary">Order Now</a>
  </div>
  
  </section>
@@ -303,13 +319,212 @@
 
 </section>
 
-<!---------------------testimonials -----------> 
+<!---------------------Gallery -----------> 
+  <div class="container">
+         <h1>Our Gallary </h1>
+<section class="section-meals" id="meals">
+        <ul class="meals-showcase clearfix">
+            <li>
+                <figure class="meal-photo">
+                    <img src="imgs/food2.jpg" alt="Korean bibimbap with egg and vegetables">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="imgs/food3.jpg" alt="Simple italian pizza with cherry tomatoes">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="imgs/food4.jpg" alt="Chicken breast steak with vegetables">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="imgs/food5.jpg" alt="Autumn pumpkin soup">                      
+                </figure>
+            </li>
+        </ul>
+        <ul class="meals-showcase clearfix">
+            <li>
+                <figure class="meal-photo">
+                    <img src="imgs/food6.jpg" alt="Paleo beef steak with vegetables">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="imgs/food5.jpg" alt="Healthy baguette with egg and vegetables">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="imgs/food4.jpg" alt="Burger with cheddar and bacon">                    
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="imgs/food2.jpg" alt="Granola with cherries and strawberries">
+                </figure>
+            </li>
+        </ul>
+		<ul class="meals-showcase clearfix">
+            <li>
+                <figure class="meal-photo">
+                    <img src="imgs/food3.jpg" alt="Korean bibimbap with egg and vegetables">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="imgs/food4.jpg" alt="Simple italian pizza with cherry tomatoes">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="imgs/food5.jpg" alt="Chicken breast steak with vegetables">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="imgs/food7.jpg" alt="Autumn pumpkin soup">                      
+                </figure>
+            </li>
+        </ul>
+		
+    </section>
+
+</div>
+</section>
+
+<!---------------------------Testimonials------------------>
+
+<section class="section-testimonials">
+        <div class="row">
+            <h2>Our customers can't live without us</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <blockquote>
+                    MY KITCHEN is just awesome! I just launched a startup 
+                    which leaves me with no time for cooking, so MY KITCHEN
+                    is a life-saver. Now that I got used to it, I couldn't 
+                    live without my daily meals!
+                    <cite><img src="imgs/food5.jpg" alt="Customer">Dechasa Shimelis</cite>
+                </blockquote>
+            </div>
+            <div class="col span-1-of-3">
+                <blockquote>
+                    Inexpensive, healthy and great-tasting meals, delivered 
+                    right to my home. We have lots of food delivery here in 
+                    Adama, but no one comes even close to MY KITCHEN. Me and my 
+                    family are so in love!
+                    <cite><img src="imgs/food4.jpg" alt="Customer">Dawit Dereje</cite>
+                </blockquote>
+            </div>
+            <div class="col span-1-of-3">
+                <blockquote>
+                    I was looking for a quick and easy food delivery service 
+                    in Adama. I tried a lot of them and ended up with 
+                    MY KITCHEN. Best food delivery service in Adama. 
+                    Keep up the great work!
+                    <cite><img src="imgs/food6.jpg" alt="Customer">Anasimos Tesifaye</cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+	
+	
+	<!-------------------------contact us -------------------->
+	
+	<div class="container">
+	<section class="section-form">
+        <div class="row">
+            <h2>We're happy to hear from you</h2>
+        </div>
+        <div class="row">
+            <form mthod="post" action="#" class="contact-form">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="name" id="name" placeholder="Your name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" name="email" id="email" placeholder="Your email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="find-us">How did you find us?</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <select name="find-us" id="find-us">
+                            <option value="friends" selected>Friends</option>
+                            <option value="search">Search Engine</option>
+                            <option value="ad">Advertisement</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="">Newsletter?</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="checkbox" name="news" id="news" checked> Yes, please.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="">Drop us a line</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <textarea name="message" placeholder="Your message"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="">&nbsp;</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="submit" value="Send it!">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+</div>
+
+
   
-
-
-
-
-
-</section>  
    </body>
+   
+   
+   <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+				    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="row">
+            <p>
+                Copyright &copy; 2020 MY KITCHEN. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
 </html>
